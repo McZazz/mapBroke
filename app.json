@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "@RNMapboxMapsImpl": "maplibre",
+          "RNMapboxMapsDownloadToken": "< your mapbox token here >"
+        }
+      ]
+    ],
+    "name": "mapBroke",
+    "slug": "mapBroke",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
