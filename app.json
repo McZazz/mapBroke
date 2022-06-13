@@ -5,7 +5,7 @@
         "@rnmapbox/maps",
         {
           "@RNMapboxMapsImpl": "maplibre",
-          "RNMapboxMapsDownloadToken": "< your mapbox token here >"
+          "RNMapboxMapsDownloadToken": "<YOUR_ACCESSTOKEN>"
         }
       ]
     ],

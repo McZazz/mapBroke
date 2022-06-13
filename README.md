@@ -2,7 +2,7 @@
 
 1: set your mapbox token in the following locations:
 
-        app.json - > "RNMapboxMapsDownloadToken"  
+        app.json - > "RNMapboxMapsDownloadToken": "<YOUR_ACCESSTOKEN>"  
         or  
         App.js -> MapboxGL.setAccessToken('<YOUR_ACCESSTOKEN>');  
 
