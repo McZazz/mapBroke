@@ -5,15 +5,15 @@
   or  
   App.js -> MapboxGL.setAccessToken('<YOUR_ACCESSTOKEN>');  
 
-1: in package.json -> dependencies, make sure this exists:
+2: in package.json -> dependencies, make sure this exists:
 
         "@rnmapbox/maps": "rnmapbox/maps#main"
 
-2: create a "local.properties" file in the /Android dir, put the following in it (path to android sdk, example is on a mac):  
+3: create a "local.properties" file in the /Android dir, put the following in it (path to android sdk, example is on a mac):  
 
         sdk.dir = /Users/[your macs user name]/Library/Android/sdk
 
-3: in the gradle.build file in /Android, insert the text below in the "buildscript -> ext" section:  
+4: in the gradle.build file in /Android, insert the text below in the "buildscript -> ext" section:  
 
         RNMapboxMapsImpl = "maplibre" // optinal - as this is the default
 
@@ -26,7 +26,7 @@
             implementation ("org.maplibre.gl:android-plugin-markerview-v9:1.0.0")
         }
 
-4: check that the "buildscript -> repositories" and "allprojects -> repositories" sections in your gradle.build match the ones in the build.gradle here
+5: check that the "buildscript -> repositories" and "allprojects -> repositories" sections in your gradle.build match the ones in the build.gradle here
 
 The following commands each give the error text below:
 
