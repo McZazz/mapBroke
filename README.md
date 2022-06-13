@@ -1,5 +1,10 @@
 # mapBroke
 
+1: set your mapbox token in the following locations:
+  app.json - > "RNMapboxMapsDownloadToken"  
+  or  
+  App.js -> MapboxGL.setAccessToken('<YOUR_ACCESSTOKEN>');  
+
 1: in package.json -> dependencies, make sure this exists:
 
         "@rnmapbox/maps": "rnmapbox/maps#main"
